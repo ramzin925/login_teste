@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(155deg, #5d72cf, #854dbd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.esqueci-a-senha {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #666;
+    text-align: right;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(125deg, #5d72cf, #854dbd);
+    border: none;
+    border-radius: 20px !important;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.Icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 30px
+}
+
+.Icons i {
+    margin: 0 16px;
+}
+
+.Cadastre-se {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.Cadastre-se:hover {
+    text-decoration: underline;
+}
